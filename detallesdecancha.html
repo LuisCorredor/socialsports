@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Sport</title>
+    <!-- color tema -->
+    <meta name="theme-color" content="#ededed">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <nav class="white">
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo grey-text">Logo</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse grey-text"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="partidos.html" class="grey-text">Partidos</a></li>
+                        <li><a href="perfil.html" class="grey-text"><i class="material-icons left">account_circle</i>Jhon Doe</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a class="grey-text" href="collapsible.html">Partidos</a></li>
+                        <li><a class="grey-text" href="mobile.html"><i class="material-icons left">account_circle</i> Jhon Doe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row row-space">
+        <div class="col s10 offset-s1">
+            <div class="card">
+                <div class="col s12 center">
+                    <h4>Detalles de la cancha</h4>
+                    <p><b>Futbol 5 </b></p>
+                    <p><b>Dirección:</b>calle 1 entre avendida siempre viva</p>
+                    <p><b>Nombre:</b>Algun nombre del club</p>
+                    <p><b>Horario:</b>12AM - 12PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s10 offset-s1">
+            <div class="col s12 m6 l6">
+                <div class="card center">
+                    <h4 class="center">Equipo 1</h4>
+                    <br>
+                    <p><a href="perfil.html" class="black-text">Barry Allen</a></p>
+                    <p><a href="perfil.html" class="black-text">Bruce wayne</a></p>
+                    <p><a href="perfil.html" class="black-text">Hall Jordan</a></p>
+                    <p><a href="perfil.html" class="black-text">Tom Clamcy</a></p>
+                    <p><a href="perfil.html" class="black-text">Adam Warlok</a></p>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="card center">
+                    <h4 class="center">Equipo 2</h4>
+                    <br>
+                    <p>Barry Allen</p>
+                    <p>Bruce wayne</p>
+                    <p>Hall Jordan</p>
+                    <p>Tom Clamcy</p>
+                    <p>Adam Warlok</p>
+                </div>
+            </div>
+            
+            <div class="col s12 m6 l6">
+                <div class="card center">
+                    <h4>Suplentes</h4>
+                    <br>
+                    <p>Barry Allen</p>
+                    <p>Bruce wayne</p>
+                </div>
+            </div>
+            
+            <div class="col s12 m6 l6">
+                <div class="card center">
+                    <h4>Suplentes</h4>
+                    <br>
+                    <p>Barry Allen</p>
+                    <p>Bruce wayne</p>
+                </div>
+            </div>
+            
+            <div class="col s12 m6 l6">
+                <center>
+                    <a class="blue btn" href="dashboard.html">Añadirme a este equipo</a>
+                </center>
+            </div>
+            
+            <div class="col s12 m6 l6">
+                <center>
+                    <a class="blue btn" href="dashboard.html">Añadirme a este equipo</a>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer transparent">
+        <div class="footer-copyright">
+            <div class="container grey-text">
+                Social Sports
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+        })
+
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+
+    </script>
+
+</body>
+
+</html>

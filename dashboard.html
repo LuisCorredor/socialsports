@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Social Sport</title>
+    <!-- color tema -->
+    <meta name="theme-color" content="#ededed">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <nav class="white">
+        <div class="row">
+            <div class="col s10 offset-s1">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo grey-text">Logo</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse grey-text"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="partidos.html" class="grey-text">Partidos</a></li>
+                        <li><a href="perfil.html" class="grey-text"><i class="material-icons left">account_circle</i>Jhon Doe</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a class="grey-text" href="collapsible.html">Partidos</a></li>
+                        <li><a class="grey-text" href="mobile.html"><i class="material-icons left">account_circle</i> Jhon Doe</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row row-space">
+        <div class="col s10 offset-s1">
+            <div class="col s12 m6 l6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="col s12 center">
+                                <h4 class="grey-text text-darken-2">Bienvenido a Social Sport</h4>
+                            </div>
+                            <div class="col s12">
+                                <p>Social Sport es la aplicación de partidos organizados que te permite tener un historial de tus actividades deportivas...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <h4 class="header">Perfil de usuario</h4>
+                <div class="card">
+                    <div class="card-image">
+                        <center>
+                            <img src="img/505133.jpg" class="profile-img">
+                        </center>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-action">
+                            <p><b>Descripción: loren ipsum dolor aset loren mor</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <div class="card">
+                    <div class="card-stacked">
+                        <div class="card-action">
+                            <p>Próximos Partidos</p>
+                        </div>
+                        <div class="card-action">
+                            <p>Partido 1 - Cancha los 5 - 12/12/2018</p>
+                        </div>
+                        <div class="card-action">
+                            <p>Partido 1 - Cancha los 5 - 12/12/2018</p>
+                        </div>
+                        
+                        <div class="card-action">
+                            <p>Partidos jugados</p>
+                        </div>
+                        <div class="card-action">
+                            <p>Partido 1 - Cancha los 5 - 12/12/2018</p>
+                        </div>
+                        <div class="card-action">
+                            <p>Partido 1 - Cancha los 5 - 12/12/2018</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="page-footer transparent">
+        <div class="footer-copyright">
+            <div class="container grey-text">
+                Social Sports
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".button-collapse").sideNav();
+        })
+
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+
+    </script>
+
+</body>
+
+</html>

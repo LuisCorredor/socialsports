@@ -1,0 +1,28 @@
+.useracount{
+    height: auto;
+    width: 30%;
+}
+
+.cardlogin{
+    padding: 60px 400px 60px 400px;
+    margin-top:54px;
+    margin-bottom:54px;
+}
+
+.cardform{
+    padding: 60px 180px 60px 180px;
+    margin-top:54px;
+    margin-bottom:54px;
+}
+
+.profile-img{
+    height: 150px;
+    width: 150px !important;
+    border-radius: 50% !important;
+    border: 4px solid #fafafa;
+}
+
+.row-space{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
